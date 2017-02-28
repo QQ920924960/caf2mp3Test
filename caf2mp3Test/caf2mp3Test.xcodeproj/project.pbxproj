@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BE189491E65603200F10FBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE189481E65603200F10FBA /* main.m */; };
+		1BE1894C1E65603200F10FBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1894B1E65603200F10FBA /* AppDelegate.m */; };
+		1BE1894F1E65603200F10FBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1894E1E65603200F10FBA /* ViewController.m */; };
+		1BE189521E65603200F10FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE189501E65603200F10FBA /* Main.storyboard */; };
+		1BE189541E65603200F10FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE189531E65603200F10FBA /* Assets.xcassets */; };
+		1BE189571E65603200F10FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE189551E65603200F10FBA /* LaunchScreen.storyboard */; };
+		1BE189621E65603200F10FBA /* caf2mp3TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE189611E65603200F10FBA /* caf2mp3TestTests.m */; };
+		1BE1896D1E65603200F10FBA /* caf2mp3TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1896C1E65603200F10FBA /* caf2mp3TestUITests.m */; };
+		1BE1897D1E65647D00F10FBA /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE1897C1E65647D00F10FBA /* libmp3lame.a */; };
+		1BE189811E656EBD00F10FBA /* FKRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE189801E656EBD00F10FBA /* FKRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BE1895E1E65603200F10FBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BE1893C1E65603200F10FBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BE189431E65603200F10FBA;
+			remoteInfo = caf2mp3Test;
+		};
+		1BE189691E65603200F10FBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BE1893C1E65603200F10FBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BE189431E65603200F10FBA;
+			remoteInfo = caf2mp3Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BE189441E65603200F10FBA /* caf2mp3Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caf2mp3Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE189481E65603200F10FBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BE1894A1E65603200F10FBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BE1894B1E65603200F10FBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BE1894D1E65603200F10FBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BE1894E1E65603200F10FBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BE189511E65603200F10FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BE189531E65603200F10FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BE189561E65603200F10FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BE189581E65603200F10FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE1895D1E65603200F10FBA /* caf2mp3TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caf2mp3TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE189611E65603200F10FBA /* caf2mp3TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = caf2mp3TestTests.m; sourceTree = "<group>"; };
+		1BE189631E65603200F10FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE189681E65603200F10FBA /* caf2mp3TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caf2mp3TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE1896C1E65603200F10FBA /* caf2mp3TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = caf2mp3TestUITests.m; sourceTree = "<group>"; };
+		1BE1896E1E65603200F10FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE1897B1E65647D00F10FBA /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		1BE1897C1E65647D00F10FBA /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		1BE1897F1E656EBD00F10FBA /* FKRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKRecorder.h; sourceTree = "<group>"; };
+		1BE189801E656EBD00F10FBA /* FKRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKRecorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BE189411E65603200F10FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE1897D1E65647D00F10FBA /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE1895A1E65603200F10FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE189651E65603200F10FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BE1893B1E65603200F10FBA = {
+			isa = PBXGroup;
+			children = (
+				1BE189461E65603200F10FBA /* caf2mp3Test */,
+				1BE189601E65603200F10FBA /* caf2mp3TestTests */,
+				1BE1896B1E65603200F10FBA /* caf2mp3TestUITests */,
+				1BE189451E65603200F10FBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BE189451E65603200F10FBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BE189441E65603200F10FBA /* caf2mp3Test.app */,
+				1BE1895D1E65603200F10FBA /* caf2mp3TestTests.xctest */,
+				1BE189681E65603200F10FBA /* caf2mp3TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BE189461E65603200F10FBA /* caf2mp3Test */ = {
+			isa = PBXGroup;
+			children = (
+				1BE1897E1E656EB300F10FBA /* Classes */,
+				1BE1897A1E65647D00F10FBA /* lame */,
+				1BE1894A1E65603200F10FBA /* AppDelegate.h */,
+				1BE1894B1E65603200F10FBA /* AppDelegate.m */,
+				1BE1894D1E65603200F10FBA /* ViewController.h */,
+				1BE1894E1E65603200F10FBA /* ViewController.m */,
+				1BE189501E65603200F10FBA /* Main.storyboard */,
+				1BE189531E65603200F10FBA /* Assets.xcassets */,
+				1BE189551E65603200F10FBA /* LaunchScreen.storyboard */,
+				1BE189581E65603200F10FBA /* Info.plist */,
+				1BE189471E65603200F10FBA /* Supporting Files */,
+			);
+			path = caf2mp3Test;
+			sourceTree = "<group>";
+		};
+		1BE189471E65603200F10FBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BE189481E65603200F10FBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BE189601E65603200F10FBA /* caf2mp3TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BE189611E65603200F10FBA /* caf2mp3TestTests.m */,
+				1BE189631E65603200F10FBA /* Info.plist */,
+			);
+			path = caf2mp3TestTests;
+			sourceTree = "<group>";
+		};
+		1BE1896B1E65603200F10FBA /* caf2mp3TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BE1896C1E65603200F10FBA /* caf2mp3TestUITests.m */,
+				1BE1896E1E65603200F10FBA /* Info.plist */,
+			);
+			path = caf2mp3TestUITests;
+			sourceTree = "<group>";
+		};
+		1BE1897A1E65647D00F10FBA /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				1BE1897B1E65647D00F10FBA /* lame.h */,
+				1BE1897C1E65647D00F10FBA /* libmp3lame.a */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		1BE1897E1E656EB300F10FBA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1BE1897F1E656EBD00F10FBA /* FKRecorder.h */,
+				1BE189801E656EBD00F10FBA /* FKRecorder.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BE189431E65603200F10FBA /* caf2mp3Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE189711E65603200F10FBA /* Build configuration list for PBXNativeTarget "caf2mp3Test" */;
+			buildPhases = (
+				1BE189401E65603200F10FBA /* Sources */,
+				1BE189411E65603200F10FBA /* Frameworks */,
+				1BE189421E65603200F10FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = caf2mp3Test;
+			productName = caf2mp3Test;
+			productReference = 1BE189441E65603200F10FBA /* caf2mp3Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BE1895C1E65603200F10FBA /* caf2mp3TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE189741E65603200F10FBA /* Build configuration list for PBXNativeTarget "caf2mp3TestTests" */;
+			buildPhases = (
+				1BE189591E65603200F10FBA /* Sources */,
+				1BE1895A1E65603200F10FBA /* Frameworks */,
+				1BE1895B1E65603200F10FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BE1895F1E65603200F10FBA /* PBXTargetDependency */,
+			);
+			name = caf2mp3TestTests;
+			productName = caf2mp3TestTests;
+			productReference = 1BE1895D1E65603200F10FBA /* caf2mp3TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BE189671E65603200F10FBA /* caf2mp3TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE189771E65603200F10FBA /* Build configuration list for PBXNativeTarget "caf2mp3TestUITests" */;
+			buildPhases = (
+				1BE189641E65603200F10FBA /* Sources */,
+				1BE189651E65603200F10FBA /* Frameworks */,
+				1BE189661E65603200F10FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BE1896A1E65603200F10FBA /* PBXTargetDependency */,
+			);
+			name = caf2mp3TestUITests;
+			productName = caf2mp3TestUITests;
+			productReference = 1BE189681E65603200F10FBA /* caf2mp3TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BE1893C1E65603200F10FBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zmosa;
+				TargetAttributes = {
+					1BE189431E65603200F10FBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V9FH3AWEM3;
+						ProvisioningStyle = Automatic;
+					};
+					1BE1895C1E65603200F10FBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1BE189431E65603200F10FBA;
+					};
+					1BE189671E65603200F10FBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1BE189431E65603200F10FBA;
+					};
+				};
+			};
+			buildConfigurationList = 1BE1893F1E65603200F10FBA /* Build configuration list for PBXProject "caf2mp3Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BE1893B1E65603200F10FBA;
+			productRefGroup = 1BE189451E65603200F10FBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BE189431E65603200F10FBA /* caf2mp3Test */,
+				1BE1895C1E65603200F10FBA /* caf2mp3TestTests */,
+				1BE189671E65603200F10FBA /* caf2mp3TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BE189421E65603200F10FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE189571E65603200F10FBA /* LaunchScreen.storyboard in Resources */,
+				1BE189541E65603200F10FBA /* Assets.xcassets in Resources */,
+				1BE189521E65603200F10FBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE1895B1E65603200F10FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE189661E65603200F10FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BE189401E65603200F10FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE1894F1E65603200F10FBA /* ViewController.m in Sources */,
+				1BE1894C1E65603200F10FBA /* AppDelegate.m in Sources */,
+				1BE189811E656EBD00F10FBA /* FKRecorder.m in Sources */,
+				1BE189491E65603200F10FBA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE189591E65603200F10FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE189621E65603200F10FBA /* caf2mp3TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE189641E65603200F10FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE1896D1E65603200F10FBA /* caf2mp3TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BE1895F1E65603200F10FBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BE189431E65603200F10FBA /* caf2mp3Test */;
+			targetProxy = 1BE1895E1E65603200F10FBA /* PBXContainerItemProxy */;
+		};
+		1BE1896A1E65603200F10FBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BE189431E65603200F10FBA /* caf2mp3Test */;
+			targetProxy = 1BE189691E65603200F10FBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BE189501E65603200F10FBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE189511E65603200F10FBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BE189551E65603200F10FBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE189561E65603200F10FBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BE1896F1E65603200F10FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BE189701E65603200F10FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BE189721E65603200F10FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V9FH3AWEM3;
+				INFOPLIST_FILE = caf2mp3Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/caf2mp3Test/lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmosa.caf2mp3Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BE189731E65603200F10FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V9FH3AWEM3;
+				INFOPLIST_FILE = caf2mp3Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/caf2mp3Test/lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmosa.caf2mp3Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1BE189751E65603200F10FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = caf2mp3TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmosa.caf2mp3TestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caf2mp3Test.app/caf2mp3Test";
+			};
+			name = Debug;
+		};
+		1BE189761E65603200F10FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = caf2mp3TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmosa.caf2mp3TestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caf2mp3Test.app/caf2mp3Test";
+			};
+			name = Release;
+		};
+		1BE189781E65603200F10FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = caf2mp3TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmosa.caf2mp3TestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = caf2mp3Test;
+			};
+			name = Debug;
+		};
+		1BE189791E65603200F10FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = caf2mp3TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmosa.caf2mp3TestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = caf2mp3Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BE1893F1E65603200F10FBA /* Build configuration list for PBXProject "caf2mp3Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE1896F1E65603200F10FBA /* Debug */,
+				1BE189701E65603200F10FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BE189711E65603200F10FBA /* Build configuration list for PBXNativeTarget "caf2mp3Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE189721E65603200F10FBA /* Debug */,
+				1BE189731E65603200F10FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BE189741E65603200F10FBA /* Build configuration list for PBXNativeTarget "caf2mp3TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE189751E65603200F10FBA /* Debug */,
+				1BE189761E65603200F10FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BE189771E65603200F10FBA /* Build configuration list for PBXNativeTarget "caf2mp3TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE189781E65603200F10FBA /* Debug */,
+				1BE189791E65603200F10FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BE1893C1E65603200F10FBA /* Project object */;
+}
